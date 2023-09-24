@@ -1,0 +1,20 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+<h1>Welcome to HexCrypt!</h1>
+<form action="/encrypt" method="post">
+    <label for="input">Input:</label>
+    <input type="text" id="input" name="input">
+    <button type="submit">Encrypt</button>
+</form>
+<form action="/decrypt" method="post">
+    <label for="input">Input:</label>
+    <input type="text" id="input" name="input">
+    <button type="submit">Decrypt</button>
+</form>
+</body>
+</html>
